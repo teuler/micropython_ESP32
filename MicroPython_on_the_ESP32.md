@@ -90,4 +90,4 @@ a project (in a specified folder) or run individual `.py` files directly.
 ### Using Jupyter to interact with a ESP32 over its serial REPL
 
 For instructions see [this](https://github.com/teuler/micropython_ESP32/blob/master/MicroPython_Huzzah32_FirstSteps.ipynb)
-exempary notebook.
+exemplary notebook.
