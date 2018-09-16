@@ -103,8 +103,16 @@ In addition, there is a fork by [Boris Lovosevic](https://github.com/loboris/Mic
   describes the hardware-related API specifically with respect to the ESP32.
 - There are different [pre-compiled versions](https://github.com/loboris/MicroPython_ESP32_psRAM_LoBo/wiki/firmwares)
   readily available. For example, the version that includes all libraries, also supports [displays](https://github.com/loboris/MicroPython_ESP32_psRAM_LoBo/wiki/display), such as the TFT feather from Adafruit out of the box. Also, it is possible
-  to compile to firmware to use both ESP32 cores, etc.
+  to compile to firmware to use both ESP32 cores, 
+- ...
   
+The instructions for [building the firmware under Windows](https://github.com/loboris/MicroPython_ESP32_psRAM_LoBo/wiki/winsetup)
+worked (for me) using the MINGW32 toolchain; in principle, it should also work with the Linux subsystem under Windows 10. Some comments concerning the instructions:
+
+- Installing the esptools with `pip install esptool` for me worked only after `./BUILD.sh menuconfig` was excecuted once and
+  the PC was rebooted. 
+- Like windows, the COM port connected to the ESP is defined just as `COMx`, that is without any path.
+- The same environment can also be used to install prebuild firmware following the instructions [there](https://github.com/loboris/MicroPython_ESP32_psRAM_LoBo/wiki/firmwares).
 
 ### More resources
 
