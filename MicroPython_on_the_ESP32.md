@@ -92,6 +92,19 @@ a project (in a specified folder) or run individual `.py` files directly.
 For instructions see [this](https://github.com/teuler/micropython_ESP32/blob/master/MicroPython_Huzzah32_FirstSteps.ipynb)
 exemplary notebook.
 
+### Recompiling the firmware
+
+For the "official way", see [MicroPython](https://micropython.org/) website.
+
+In addition, there is a fork by [Boris Lovosevic](https://github.com/loboris/MicroPython_ESP32_psRAM_LoBo) that is useful in several ways. For example:
+
+- It supports different ESP32 boards, also ones with more RAM (psRAM)
+- The [wiki](https://github.com/loboris/MicroPython_ESP32_psRAM_LoBo/wiki)
+  describes the hardware-related API specifically with respect to the ESP32.
+- There are different [pre-compiled versions](https://github.com/loboris/MicroPython_ESP32_psRAM_LoBo/wiki/firmwares)
+  readily available. For example, the version that includes all libraries, also supports [displays](https://github.com/loboris/MicroPython_ESP32_psRAM_LoBo/wiki/display), such as the TFT feather from Adafruit out of the box. Also, it is possible
+  to compile to firmware to use both ESP32 cores, etc.
+  
 
 ### More resources
 
@@ -101,5 +114,7 @@ exemplary notebook.
 - https://github.com/espressif/esptool
 - https://learn.adafruit.com/micropython-hardware-ili9341-tft-and-featherwing/micropython
 - https://github.com/loboris/MicroPython_ESP32_psRAM_LoBo/wiki
-- https://medium.com/@rovai/micropython-on-esp-using-jupyter-6f366ff5ed9
+- On using with Jupyter notebooks:
+  https://medium.com/@rovai/micropython-on-esp-using-jupyter-6f366ff5ed9
+  
 
