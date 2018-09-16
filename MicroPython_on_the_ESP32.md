@@ -91,3 +91,15 @@ a project (in a specified folder) or run individual `.py` files directly.
 
 For instructions see [this](https://github.com/teuler/micropython_ESP32/blob/master/MicroPython_Huzzah32_FirstSteps.ipynb)
 exemplary notebook.
+
+
+### More resources
+
+- https://github.com/lemariva/ESP32MicroPython
+- https://github.com/pvanallen/esp32-getstarted
+  (Useful starting up info)
+- https://github.com/espressif/esptool
+- https://learn.adafruit.com/micropython-hardware-ili9341-tft-and-featherwing/micropython
+- https://github.com/loboris/MicroPython_ESP32_psRAM_LoBo/wiki
+- https://medium.com/@rovai/micropython-on-esp-using-jupyter-6f366ff5ed9
+
