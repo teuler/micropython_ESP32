@@ -89,39 +89,5 @@ a project (in a specified folder) or run individual `.py` files directly.
 
 ### Using Jupyter to interact with a ESP32 over its serial REPL
 
-The following instructions assume that Jupyter is already installed, 
-preferentially [Anaconda](https://www.anaconda.com/distribution/). This is a summary 
-of the instructions in the respective github repository 
-[goatchurchprime/jupyter_micropython_kernel](https://github.com/goatchurchprime/jupyter_micropython_kernel/)
-by Julian Todd; please see there for further details and updates.
-
-1. Clone this repository to a directory (e.g. `MicroPython`) using:
-   ```
-   git clone https://github.com/goatchurchprime/jupyter_micropython_kernel.git
-   ```
-
-
-2. Install this library (in editable mode) into Python3 using:
-   ```
-   pip install -e jupyter_micropython_kernel
-   ```
-   This creates a small file pointing to this directory in the `python/../site-packages directory`, 
-   and makes it possible to `git update` the library later as it gets improved. 
- 
- 
-3. Install the kernel into jupyter itself using:
-   ```
-   python -m jupyter_micropython_kernel.install
-   ```
-   This creates the small file `.local/share/jupyter/kernels/micropython/kernel.json` 
-   that jupyter uses to reference its kernels.
-
-
-4. Now run Jupyter notebooks:
-   ```
-   jupyter notebook
-   ```
-   
-   
-5. All "magic" commands can be listed with `%lsmagic`. The most important
-   one connects the notebook to the MicroPython REPL on the device:
+For instructions see [this](https://github.com/teuler/micropython_ESP32/blob/master/MicroPython_Huzzah32_FirstSteps.ipynb)
+exempary notebook.
